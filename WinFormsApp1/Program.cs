@@ -1,8 +1,3 @@
-# FormsCSharp
-### Чтобы запустить определённую Form:
-#### *В Program.cs заменить 'Form2' на нужный из репозитория*
-
-```
 namespace WinFormsApp1
 {
     internal static class Program
@@ -12,7 +7,6 @@ namespace WinFormsApp1
         {
             ApplicationConfiguration.Initialize();
             Application.Run(new Form2());
-        }                       ^^^^^
+        }
     }
 }
-```
