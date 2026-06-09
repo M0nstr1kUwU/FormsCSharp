@@ -1,6 +1,6 @@
 # FormsCSharp
 ### Чтобы запустить определённую Form:
-#### *В Program.cs заменить 'Form6' на нужный из репозитория*
+#### *В Program.cs заменить 'Form7' на нужный из репозитория*
 
 ```
 namespace WinFormsApp1
@@ -11,7 +11,7 @@ namespace WinFormsApp1
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form6());
+            Application.Run(new Form7());
         }                       ^^^^^
     }
 }
