@@ -6,7 +6,7 @@ namespace WinFormsApp1
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form8());
+            Application.Run(new Form9());
         }
     }
 }
