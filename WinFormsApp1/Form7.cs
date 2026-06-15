@@ -13,11 +13,13 @@ namespace WinFormsApp1
     public partial class Form7 : Form
     {
         public int choice = 1, f = 0, heal = 5, damage = 10, block = 0;
-        public Form7()
+        private Form12 _owner;
+        public Form7(Form12 owner)
         {
             InitializeComponent();
             progressBar1.Value = progressBar1.Maximum;
             progressBar2.Value = progressBar2.Maximum;
+            _owner = owner;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e) { }
@@ -53,6 +55,7 @@ namespace WinFormsApp1
                             label2.Text = "";
                             button1.Visible = false;
                             button2.Visible = true;
+                            _owner.up_score(25);
                         }
                         f++;
                         break;
@@ -77,6 +80,7 @@ namespace WinFormsApp1
                             label2.Text = "";
                             button1.Visible = false;
                             button2.Visible = true;
+                            _owner.up_score(25);
                         }
                         if (progressBar1.Value + heal * 2 <= progressBar1.Maximum)
                             progressBar1.Value += heal * 2;
@@ -96,7 +100,7 @@ namespace WinFormsApp1
                 progressBar2.Value <= progressBar1.Minimum)
                 return;
 
-                int choice_entity = RandomNumberGenerator.GetInt32(1, 4);
+            int choice_entity = RandomNumberGenerator.GetInt32(1, 4);
 
             switch (choice_entity)
             {
@@ -168,5 +172,7 @@ namespace WinFormsApp1
             button1.Visible = true;
             button2.Visible = false;
         }
+
+        private void button3_Click(object sender, EventArgs e) { Close(); }
     }
 }

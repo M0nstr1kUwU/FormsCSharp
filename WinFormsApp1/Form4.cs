@@ -11,10 +11,12 @@ namespace WinFormsApp1
     public partial class Form4 : Form
     {
         public int cost = 7, fill = 15, time = 0;
-        public Form4()
+        private Form12 _owner;
+        public Form4(Form12 owner)
         {
             InitializeComponent();
             button4.Visible = false;
+            _owner = owner;
         }
 
         private void progressBar1_Click(object sender, EventArgs e) { }
@@ -103,7 +105,7 @@ namespace WinFormsApp1
             cost = 7;
             timer1.Start();
             timer2.Start();
-            
+
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -121,7 +123,10 @@ namespace WinFormsApp1
                 timer1.Stop();
                 timer2.Stop();
                 label1.Text = "You win!";
+                _owner.up_score(50);
             }
         }
+
+        private void button5_Click(object sender, EventArgs e) { Close(); }
     }
 }

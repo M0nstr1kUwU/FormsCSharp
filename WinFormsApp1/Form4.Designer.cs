@@ -39,6 +39,7 @@
             button4 = new Button();
             label1 = new Label();
             timer2 = new System.Windows.Forms.Timer(components);
+            button5 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -140,12 +141,23 @@
             timer2.Interval = 1000;
             timer2.Tick += timer2_Tick;
             // 
+            // button5
+            // 
+            button5.Location = new Point(311, 0);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 23);
+            button5.TabIndex = 8;
+            button5.Text = "Exit";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(386, 218);
+            Controls.Add(button5);
             Controls.Add(label1);
             Controls.Add(button4);
             Controls.Add(progressBar3);
@@ -172,5 +184,6 @@
         private Button button4;
         private Label label1;
         private System.Windows.Forms.Timer timer2;
+        private Button button5;
     }
 }

@@ -12,10 +12,11 @@ namespace WinFormsApp1
     public partial class Form3 : Form
     {
         public int p1, p2, p3, p4, p5, w1 = 0, w2 = 0, w3 = 0, w4 = 0, w5 = 0, res = 0;
-
-        public Form3()
+        private Form12 _owner;
+        public Form3(Form12 owner)
         {
             InitializeComponent();
+            _owner = owner;
         }
 
         private void progressBar1_Click(object sender, EventArgs e) { }
@@ -37,6 +38,7 @@ namespace WinFormsApp1
                 progressBar1.Value = 100;
                 label1.Text = "Win 1 ProgressBar";
                 w1++;
+                _owner.up_score(5);
             }
             if (progressBar2.Value + p2 < progressBar2.Maximum)
                 progressBar2.Value += p2;
@@ -80,13 +82,15 @@ namespace WinFormsApp1
         {
             if (!timer1.Enabled)
                 res++;
-                label1.Text = "";
-                progressBar1.Value = 0;
-                progressBar2.Value = 0;
-                progressBar3.Value = 0;
-                progressBar4.Value = 0;
-                progressBar5.Value = 0;
-                timer1.Start();
+            label1.Text = "";
+            progressBar1.Value = 0;
+            progressBar2.Value = 0;
+            progressBar3.Value = 0;
+            progressBar4.Value = 0;
+            progressBar5.Value = 0;
+            timer1.Start();
         }
+
+        private void button2_Click(object sender, EventArgs e) { Close(); }
     }
 }

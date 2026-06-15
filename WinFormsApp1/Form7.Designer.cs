@@ -42,6 +42,7 @@
             label2 = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
             button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -165,12 +166,23 @@
             button2.Visible = false;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.Location = new Point(515, 0);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 11;
+            button3.Text = "Exit";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Form7
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
-            ClientSize = new Size(590, 450);
+            ClientSize = new Size(590, 377);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -204,5 +216,6 @@
         private Label label2;
         private System.Windows.Forms.Timer timer1;
         private Button button2;
+        private Button button3;
     }
 }

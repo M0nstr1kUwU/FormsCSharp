@@ -38,6 +38,7 @@
             label1 = new Label();
             button1 = new Button();
             label2 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // progressBar1
@@ -109,12 +110,23 @@
             label2.Size = new Size(0, 15);
             label2.TabIndex = 7;
             // 
+            // button2
+            // 
+            button2.Location = new Point(3, 1);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 8;
+            button2.Text = "Exit";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GrayText;
             ClientSize = new Size(192, 153);
+            Controls.Add(button2);
             Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(label1);
@@ -140,5 +152,6 @@
         private Label label1;
         private Button button1;
         private Label label2;
+        private Button button2;
     }
 }
