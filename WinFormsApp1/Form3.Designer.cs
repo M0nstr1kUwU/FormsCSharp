@@ -45,7 +45,7 @@
             // 
             progressBar1.Location = new Point(12, 30);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(164, 15);
+            progressBar1.Size = new Size(245, 15);
             progressBar1.TabIndex = 0;
             progressBar1.Click += progressBar1_Click;
             // 
@@ -59,28 +59,28 @@
             // 
             progressBar2.Location = new Point(12, 51);
             progressBar2.Name = "progressBar2";
-            progressBar2.Size = new Size(164, 15);
+            progressBar2.Size = new Size(245, 15);
             progressBar2.TabIndex = 1;
             // 
             // progressBar3
             // 
             progressBar3.Location = new Point(12, 72);
             progressBar3.Name = "progressBar3";
-            progressBar3.Size = new Size(164, 15);
+            progressBar3.Size = new Size(245, 15);
             progressBar3.TabIndex = 2;
             // 
             // progressBar4
             // 
             progressBar4.Location = new Point(12, 93);
             progressBar4.Name = "progressBar4";
-            progressBar4.Size = new Size(164, 15);
+            progressBar4.Size = new Size(245, 15);
             progressBar4.TabIndex = 3;
             // 
             // progressBar5
             // 
             progressBar5.Location = new Point(12, 114);
             progressBar5.Name = "progressBar5";
-            progressBar5.Size = new Size(164, 15);
+            progressBar5.Size = new Size(245, 15);
             progressBar5.TabIndex = 4;
             // 
             // label1
@@ -112,7 +112,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(3, 1);
+            button2.Location = new Point(182, 0);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 8;
@@ -125,7 +125,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GrayText;
-            ClientSize = new Size(192, 153);
+            ClientSize = new Size(262, 153);
             Controls.Add(button2);
             Controls.Add(label2);
             Controls.Add(button1);
