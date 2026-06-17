@@ -497,6 +497,11 @@ namespace WinFormsApp1
             btnEatFood.Enabled = enabled && inventory.Count > 0;
             lstInventory.Enabled = enabled;
         }
+
+        private void Form15_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class FoodItem

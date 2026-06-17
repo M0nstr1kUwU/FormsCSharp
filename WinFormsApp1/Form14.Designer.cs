@@ -46,6 +46,7 @@
             trackBar1.Size = new Size(316, 45);
             trackBar1.TabIndex = 0;
             trackBar1.Value = 2;
+            trackBar1.Scroll += trackBar1_Scroll;
             // 
             // comboBox1
             // 

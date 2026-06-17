@@ -38,6 +38,7 @@
             ClientSize = new Size(412, 178);
             Name = "Form15";
             Text = "Form15";
+            Load += Form15_Load;
             ResumeLayout(false);
         }
 

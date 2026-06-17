@@ -58,5 +58,10 @@ namespace WinFormsApp1
         {
             brush = Brushes.Blue;
         }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+
+        }
     }
 }
