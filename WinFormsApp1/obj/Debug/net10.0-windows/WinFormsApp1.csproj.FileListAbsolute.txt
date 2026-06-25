@@ -84,3 +84,4 @@ C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\Wi
 C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form17.resources
 C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form18.resources
 C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form19.resources
+C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form20.resources
