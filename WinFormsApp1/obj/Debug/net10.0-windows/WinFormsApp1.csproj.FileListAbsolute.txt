@@ -82,3 +82,5 @@ C:\Users\Komp12\Documents\Gunko\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windo
 C:\Users\Komp12\Documents\Gunko\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form16.resources
 C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form16.resources
 C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form17.resources
+C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form18.resources
+C:\Users\User\source\repos\FormsCSharp\WinFormsApp1\obj\Debug\net10.0-windows\WinFormsApp1.Form19.resources
