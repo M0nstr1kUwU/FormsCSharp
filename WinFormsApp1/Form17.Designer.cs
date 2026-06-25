@@ -68,6 +68,7 @@
             btnAddCard.TabIndex = 3;
             btnAddCard.Text = "Добавить карту";
             btnAddCard.UseVisualStyleBackColor = true;
+            btnAddCard.Click += btnAddCard_Click_1;
             // 
             // btnCheck
             // 
@@ -77,6 +78,7 @@
             btnCheck.TabIndex = 4;
             btnCheck.Text = "Проверить";
             btnCheck.UseVisualStyleBackColor = true;
+            btnCheck.Click += btnCheck_Click_1;
             // 
             // btnNewGame
             // 
@@ -86,6 +88,7 @@
             btnNewGame.TabIndex = 5;
             btnNewGame.Text = "Новая игра";
             btnNewGame.UseVisualStyleBackColor = true;
+            btnNewGame.Click += btnNewGame_Click_1;
             // 
             // Form17
             // 

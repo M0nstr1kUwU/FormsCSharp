@@ -50,19 +50,19 @@ namespace WinFormsApp1
             }
         }
 
-        private void btnAddCard_Click(object sender, EventArgs e)
+        private void btnAddCard_Click_1(object sender, EventArgs e)
         {
             game.PlayerHit();
             UpdateUI();
         }
 
-        private void btnCheck_Click(object sender, EventArgs e)
+        private void btnCheck_Click_1(object sender, EventArgs e)
         {
             game.DealerTurn();
             UpdateUI();
         }
 
-        private void btnNewGame_Click(object sender, EventArgs e)
+        private void btnNewGame_Click_1(object sender, EventArgs e)
         {
             game.NewGame();
             UpdateUI();
